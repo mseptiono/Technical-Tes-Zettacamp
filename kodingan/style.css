@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: absolute;
+  right: 35%;
+  font-family: sans-serif;
+  background-color: #0095af;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  background: #fff;
+  max-width: 400px;
+  user-select: none;
+  box-shadow: inset 3px 3px 4px rgba(248, 242, 242, 0.4);
+  padding: 10px;
+  border: 5px solid rgb(243, 240, 240);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.title img {
+  width: 60px;
+  border-radius: 10rem;
+  border: 1px solid wheat;
+  margin-right: 1.2rem;
+}
+
+.info h4 {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.info p1 {
+  font-size: 0.7rem;
+  color: gray;
+  line-height: 1.2rem;
+}
+
+.foto p2 {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-align: justify;
+}
+
+.foto img {
+  width: 100%;
+  padding: 5px 1px 10px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon img {
+  width: 15px;
+  border-radius: 10rem;
+  border: 1px solid wheat;
+  margin-right: 0.5rem;
+}
+.icon p {
+  font-size: 0.7rem;
+  color: gray;
+  line-height: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.komen {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 0.9rem;
+  background-color: rgb(233, 227, 227);
+  padding: 5px;
+}
+
+.komen img {
+  width: 15px;
+}
+
+.komen p {
+  font-size: 0.7rem;
+  color: gray;
+  line-height: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.komen2 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(233, 227, 227);
+}
+
+.komen2 img {
+  width: 40px;
+  margin-right: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.isikomen h4 {
+  color: rgb(85, 81, 81);
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+}
+
+.isikomen p {
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  text-align: justify;
+}
+
+.isikomen2 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(233, 227, 227);
+}
+.isikomen2 p {
+  font-size: 0.6rem;
+  color: #2f6cc7;
+  line-height: 1.2rem;
+  margin-left: 3rem;
+  margin-right: 1.2rem;
+}
+
+.isikomen2 img {
+  width: 13px;
+  margin-right: 1.2rem;
+  color: gray;
+}
+
+.komenorang {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(233, 227, 227);
+}
+
+.komenorang img {
+  width: 40px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  background-color: rgb(233, 227, 227);
+  padding-left: 50px;
+}
+
+.button input {
+  background-color: #2e80df;
+}
